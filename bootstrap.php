@@ -11,14 +11,12 @@
   if (!defined("_WOJO"))
       die('Direct access to this location is not allowed.');
 
-
   define('BASE', realpath(dirname(__file__)) . '/lib') . '/';
   define('DS', DIRECTORY_SEPARATOR);
 
   class Bootstrap
   {
       private static $__loader;
-
 
       /**
        * Bootstrap::__construct()
@@ -29,7 +27,6 @@
       {
           spl_autoload_register(array($this, 'autoLoad'));
       }
-
 
       /**
        * Bootstrap::init()
@@ -44,7 +41,6 @@
 
           return self::$__loader;
       }
-
 
       /**
        * Bootstrap::autoLoad()
@@ -67,7 +63,6 @@
           }
           self::recursiveAutoLoad($class, BASE);
       }
-
 
       /**
        * Bootstrap::recursiveAutoLoad()
