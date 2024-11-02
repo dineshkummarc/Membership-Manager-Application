@@ -196,4 +196,3 @@
 	  $tpl->core = App::Core();
       echo $tpl->render(); 
   });
- 
