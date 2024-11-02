@@ -11,7 +11,6 @@
   if (!defined("_WOJO"))
       die('Direct access to this location is not allowed.');
 	  
-	  
   class Router
   {
 
@@ -29,7 +28,6 @@
           ':s' => '[a-z0-9\-]+', //One or more word characters (a-z 0-9 _) and the dash (-)
           ':d' => '\d+' //One or more digits (0-9),
           ];
-
 
       /**
        * Router::before()
