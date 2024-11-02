@@ -28,7 +28,6 @@
   Debug::run();
   new Lang();
 
-
   define("ADMIN", BASEPATH . "admin/");
   define("FRONT", BASEPATH . "front/");
   
