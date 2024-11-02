@@ -1,1 +1,2 @@
-# Prepare-and-Host-your-Membership-Manager-Application
+# Membership-Manager-Application
+previously Prepare-and-Host-your-Membership-Manager-Application
